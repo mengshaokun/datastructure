@@ -1,0 +1,33 @@
+### system ignore ###
+.DS_Store
+Thumbs.db
+Servers
+.metadata
+upload
+gen_code
+
+### node ###
+node_modules
+
+### maven ###
+target/
+.mvn
+*.war
+*.ear
+*.zip
+*.tar
+*.tar.gz
+
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+*.lock
+rebel.xml
+
+
+### logs ####
+/logs/
+*.log
