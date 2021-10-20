@@ -104,7 +104,7 @@ class DoubleLinkedList {
             if (temp.next.id == id) {
                 //删除节点
                 //需要删除节点为 temp.next
-                //要先设置删除结点的后一个节点的前指针域为删除节点的前一个节点
+                //要先设置删除节点的后一个节点的前指针域为删除节点的前一个节点
                 temp.next.next.pre = temp.next.pre;
                 temp.next.pre.next = temp.next.next;
                 break;
